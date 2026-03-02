@@ -1,11 +1,5 @@
 # ☕ TCafe — Multithreaded Order Simulation
 
-**Course:** SWE449 – Parallel Programming
-**University:** Altınbaş University
-**Topic:** Define the Concept of a Thread and Explain in Detail
-**Author:** Abdirizak (Leader)
-
----
 
 ## What This Project Demonstrates
 
