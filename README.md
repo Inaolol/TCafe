@@ -235,19 +235,6 @@ The output directly maps to the lifecycle diagram:
 
 ---
 
-## How Each Team Member Uses This in the Report
-
-| Member | File to Reference | Key Point |
-| --- | --- | --- |
-| Student 2 (Why Threads) | `Main.java` — 6 customers run concurrently | Without threads, customers served one at a time |
-| Student 3 (Process) | `Main.java` — `orderQueue` and `inventory` passed to all threads | All threads share the same heap objects (shared memory) |
-| Student 4 (Thread Concept) | `Customer.java` — lifecycle comments | Every state transition is documented in the code |
-| Student 4 (Sync) | `Inventory.java` — `synchronized` methods | Race condition explained in comments |
-| Student 5 (Analysis) | `Worker.java` — re-queue logic, `Restocker.java` | Performance bottleneck, overhead discussion |
-| Abdirizak (Demo) | `Main.java` — `getState()` output | Show lifecycle states live during presentation |
-
----
-
 ## Key Concepts Glossary
 
 | Term | Definition | In Code |
